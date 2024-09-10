@@ -9,7 +9,6 @@ import Services from './Components/Services'
 import Skills from './Components/skills/Skills'
 import Projects from './Components/Projects'
 import Testimonial from './Components/Testimonial'
-import Blog from './Components/Blog'
 import Footer from './Components/Footer'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles

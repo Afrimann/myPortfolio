@@ -40,22 +40,26 @@ const TestimonialSlider = () => {
             <ClientReview 
             image= {c1}
             name = 'Khidir Ahmad' 
-            role= 'FullStack Developer' 
+            role= 'FullStack Developer'
+            review='Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate repudiandae hic dolorem praesentium mollitia minima impedit veritatis temporibus nostrum excepturi?'
             />
             <ClientReview 
             image = {c2}
-            name = 'Dr Nancy Woods' 
-            role= 'D. Computer Science' 
+            name = 'Dr Nonso' 
+            role= 'Client'
+            review='Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate repudiandae hic dolorem praesentium mollitia minima impedit veritatis temporibus nostrum excepturi?' 
             />
             <ClientReview 
             image = {c1} 
             name = 'Tamilore Adebayo' 
-            role= 'Data Analyst / Software Engineer' 
+            role= 'Data Analyst / Software Engineer'
+            review='Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate repudiandae hic dolorem praesentium mollitia minima impedit veritatis temporibus nostrum excepturi?' 
             />
             <ClientReview 
             image = {c2}
             name = 'Omodele Samuel' 
-            role = 'Frontend Developer' 
+            role = 'Frontend Developer'
+            review='Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate repudiandae hic dolorem praesentium mollitia minima impedit veritatis temporibus nostrum excepturi?' 
             />
         </Carousel>
   )

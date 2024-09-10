@@ -19,7 +19,7 @@ const Hero = () => {
                     </h1>
                     <TextEffect />
                     <p className='text-[16px] mt-[2rem] text-[#ffffff92]'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa cupiditate esse cumque. Neque eveniet quisquam maxime quis, temporibus labore provident odio nostrum nemo, vel veniam dolore commodi facere deserunt vero.
+                        I am a Frontend Developer driven with the passion of developing and implementing projects that meets the actual benefits of technology which is solely to make life easier to navigate. Welcome to my portfolio and feel free to check my projects.
                     </p>
                     <div className='mt-[2rem] flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6'>
                         <button className='px-[2rem] hover:bg-yellow-400 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-[#55e6a5] text-black flex items-center space-x-2'>

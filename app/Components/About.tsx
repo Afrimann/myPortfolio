@@ -15,7 +15,7 @@ const About = () => {
                     <div className='mb-[3rem] flex items-center md:space-x-10 '>
                         <span className='w-[100px] hidden md:block h-[5px] bg-slate-400 rounded-sm'></span>
                         <p className='text-[17px] text-slate-300 w-[80%]'>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea suscipit, dolores repellendus rerum quibusdam necessitatibus, sunt odio doloremque deserunt eius neque esse.
+                            My main aim is receiving or bringing about great ideas and transforming those ideas into reality. The climax or succesful phase of innovation is when it reaches and concludes its implementation phase.
                         </p>
                     </div>
                     <button className='px-[2rem] hover:bg-yellow-400 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-[#55e6a5] text-black flex items-center space-x-2'>

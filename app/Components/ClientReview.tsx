@@ -5,9 +5,10 @@ import React from 'react'
 interface Props {
     name: string,
     image: StaticImageData,
-    role: string
+    role: string,
+    review: string
 }
-const ClientReview = ({ name, image, role }: Props) => {
+const ClientReview = ({ name, image, role,review }: Props) => {
     return (
         <div className='flex flex-col text-center justify-center'>
             <Image src={image}
@@ -28,7 +29,7 @@ const ClientReview = ({ name, image, role }: Props) => {
             <h1 className='text-[25px] text-white mt-[1rem]'>{name}</h1>
             <p className='text-[18px] text-white opacity-75 mt-[0.5rem] mb-[1.4rem] '>{role}</p>
             <p className='text-[16px] text-white opacity-50 w-[90%] md:w-[50%] mx-auto'>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit nam distinctio, natus doloremque ipsum cum numquam. Totam culpa tempore cumque?
+                {review}
             </p>
         </div>
     )

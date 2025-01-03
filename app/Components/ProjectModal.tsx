@@ -1,5 +1,4 @@
 import type { Project } from './ProjectCard'
-import { XMarkIcon } from '@heroicons/react/16/solid'
 
 interface Props {
   project: Project

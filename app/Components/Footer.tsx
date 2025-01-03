@@ -3,48 +3,48 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div className='pt-[8rem] pb-[4rem] bg-[#02050a] '>
-            <div className='grid border-b-[1px] pb-[6rem] border-gray-400 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[80%] mx-auto gap-[3rem]'>
+        <div className='bg-[#02050a] pt-[8rem] pb-[4rem]'>
+            <div className='gap-[3rem] border-gray-400 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto pb-[6rem] border-b-[1px] w-[80%]'>
                 <div className='flex items-center space-x-6'>
-                    <div className='md:w-[6.5rem] md:h-[6.5rem] w-[5rem] h-[5rem] flex items-center justify-center rounded-full bg-[#55e6a5] '>
-                        <MapIcon className='md:w-[4rem] md:h-[4rem] w-[3.5rem] h-[3.5rem] text-black' />
+                    <div className='flex justify-center items-center bg-[#55e6a5] rounded-full w-[5rem] md:w-[6.5rem] h-[5rem] md:h-[6.5rem]'>
+                        <MapIcon className='w-[3.5rem] md:w-[4rem] h-[3.5rem] md:h-[4rem] text-black' />
                     </div>
-                    <div className='text-[25px] mb-[0.2rem] font-semibold text-white '>
+                    <div className='mb-[0.2rem] font-semibold text-[25px] text-white'>
                         <h1>Address</h1>
-                        <p className='text-[17px] w-[90%] text-white opacity-60'>Lorem, ipsum dolor.</p>
+                        <p className='opacity-60 w-[90%] text-[17px] text-white'>Check back later</p>
                     </div>
                 </div>
                 <div className='flex items-center space-x-6'>
-                    <div className='md:w-[6.5rem] md:h-[6.5rem] w-[5rem] h-[5rem] flex items-center justify-center rounded-full bg-[#55e6a5] '>
-                        <DevicePhoneMobileIcon className='md:w-[4rem] md:h-[4rem] w-[3.5rem] h-[3.5rem] text-black' />
+                    <div className='flex justify-center items-center bg-[#55e6a5] rounded-full w-[5rem] md:w-[6.5rem] h-[5rem] md:h-[6.5rem]'>
+                        <DevicePhoneMobileIcon className='w-[3.5rem] md:w-[4rem] h-[3.5rem] md:h-[4rem] text-black' />
                     </div>
-                    <div className='text-[25px] mb-[0.2rem] font-semibold text-white '>
+                    <div className='mb-[0.2rem] font-semibold text-[25px] text-white'>
                         <h1>Phone</h1>
-                        <p className='text-[17px] w-[90%] text-white opacity-60'>
-                            +2348026526970 <br /> +2349131318567
+                        <p className='opacity-60 w-[90%] text-[17px] text-white'>
+                            +2348026526970 <br /> +2349133328567
                         </p>
                     </div>
                 </div>
                 <div className='flex items-center space-x-6 sm:space-x-3'>
-                    <div className='md:w-[6.5rem] md:h-[6.5rem] w-[5rem] h-[5rem] flex items-center justify-center rounded-full bg-[#55e6a5] '>
-                        <EnvelopeIcon className='md:w-[4rem] md:h-[4rem] w-[3.5rem] h-[3.5rem] text-black' />
+                    <div className='flex justify-center items-center bg-[#55e6a5] rounded-full w-[5rem] md:w-[6.5rem] h-[5rem] md:h-[6.5rem]'>
+                        <EnvelopeIcon className='w-[3.5rem] md:w-[4rem] h-[3.5rem] md:h-[4rem] text-black' />
                     </div>
-                    <div className='text-[25px] mb-[0.2rem] font-semibold text-white '>
+                    <div className='mb-[0.2rem] font-semibold text-[25px] text-white'>
                         <h1>Email</h1>
-                        <p className='text-[17px] sm:text-[14px] w-[90%] text-white opacity-60'>
-                            webdev@gmail.com <br /> nextgen@gmail.com
+                        <p className='opacity-60 w-[90%] text-[17px] text-white sm:text-[14px]'>
+                            omotoshopeter737@gmail.com <br /> peteromotosho737@gmail.com
                         </p>
                     </div>
                 </div>
             </div>
-            <div className='w-[80%] mt-[2rem] mx-auto grid grid-cols-1 md:grid-cols-2 items-center justify-between'>
-                <div className='text-[18px] mb-[2rem] md:mb-0 text-white opacity-20 capitalize'>
-                    peter omoh 2024 | all rights reserved
+            <div className='justify-between items-center grid grid-cols-1 md:grid-cols-2 mx-auto mt-[2rem] w-[80%]'>
+                <div className='opacity-20 mb-[2rem] md:mb-0 text-[18px] text-white capitalize'>
+                    peter omoh 2025 | all rights reserved
                 </div>
                 <div className='flex items-center space-x-10'>
-                    <p className='text-white text-[18px] opacity-20'>Terms & Conditions</p>
-                    <p className='text-white text-[18px] opacity-20'>Privacy Policy</p>
-                    <p className='text-white text-[18px] opacity-20'>Sitemap</p>
+                    <p className='opacity-20 text-[18px] text-white'>Terms & Conditions</p>
+                    <p className='opacity-20 text-[18px] text-white'>Privacy Policy</p>
+                    <p className='opacity-20 text-[18px] text-white'>Sitemap</p>
                 </div>
             </div>
         </div>

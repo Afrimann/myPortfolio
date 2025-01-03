@@ -10,9 +10,13 @@ const Projects = () => {
   const handleSeeMore = (project: Project) => {
     // set this ste to null because i have not finished designing the modal screen, it will be changed to true soon.
     setSelectedProject(null)
+    console.log(project); 
+    setIsModalOpen(false)
+    
   }
   const handleCloseModal = () => {
     setSelectedProject(null)
+    setIsModalOpen(false)
   }
 
   // Disable scrolling when the modal is open

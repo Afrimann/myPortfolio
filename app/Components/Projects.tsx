@@ -8,7 +8,8 @@ const Projects = () => {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null)
   const [isModalOpen, setIsModalOpen] = useState(false)
   const handleSeeMore = (project: Project) => {
-    setSelectedProject(project)
+    // set this ste to null because i have not finished designing the modal screen, it will be changed to true soon.
+    setSelectedProject(null)
   }
   const handleCloseModal = () => {
     setSelectedProject(null)
@@ -28,7 +29,9 @@ const Projects = () => {
 
   return (
     <div className='flex flex-col justify-center items-center bg-[#09101a] mx-auto p-4 w-full min-h-[100vh] b'>
-        <h1 className='mb-4 heading'>My <span className='text-yellow-400'>PROJECTS</span></h1>
+      <h1 className='mb-4 heading'>
+        My <span className='text-yellow-400'>PROJECTS</span>
+      </h1>
       <div className='gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
         {ProjectDetails.map((project, index) => (
           <div key={index} className='m-0 p-0'>

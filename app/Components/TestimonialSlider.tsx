@@ -60,7 +60,7 @@ const TestimonialSlider = () => {
             image = {c2}
             name = 'Omodele Samuel' 
             role = 'Frontend Developer'
-            review= 'Omohh!, as i fondly call him is a good frontend developer He is a friend and aso a co-worker. His passion to see everythuthat deals with tech delivered in the best condition possible is captivating.He is the best man for the best job. ' 
+            review= 'Omohh!, as i fondly call him is a good frontend developer He is a friend and aso a co-worker. His passion to see everything that deals with tech delivered in the best condition possible is captivating.He is the best man for the best job. ' 
             />
         </Carousel>
   )

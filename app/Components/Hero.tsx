@@ -3,7 +3,7 @@ import Particle from './Particle'
 import TextEffect from './TextEffect'
 import Image from 'next/image'
 import hero from '@/public/banner.jpg'
-import { ArrowUpTrayIcon, PlayCircleIcon } from '@heroicons/react/16/solid'
+import { ArrowUpTrayIcon } from '@heroicons/react/16/solid'
 
 const Hero = () => {
     return (

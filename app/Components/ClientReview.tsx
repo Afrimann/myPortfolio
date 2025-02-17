@@ -1,5 +1,4 @@
 import { StarIcon } from '@heroicons/react/16/solid'
-import Image, { StaticImageData } from 'next/image'
 import React from 'react'
 
 interface Props {
@@ -8,7 +7,7 @@ interface Props {
     role: string,
     review: string
 }
-const ClientReview = ({ name, image, role,review }: Props) => {
+const ClientReview = ({ name, role,review }: Props) => {
     return (
         <div className='flex flex-col justify-center text-center'>
             {/* <Image src={image}

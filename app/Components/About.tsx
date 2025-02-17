@@ -1,6 +1,5 @@
 import { ArrowUpTrayIcon } from '@heroicons/react/16/solid'
 import React from 'react'
-import about from '@/app/public/images/about.jpg'
 import Image from 'next/image'
 
 const About = () => {

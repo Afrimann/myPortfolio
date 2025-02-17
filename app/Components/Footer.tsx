@@ -36,6 +36,13 @@ const Footer = () => {
                         </p>
                     </div>
                 </div>
+                <div className='mx-auto mt-[2rem]'>
+                <div className='opacity-20 mb-[2rem] md:mb-0 text-[18px] text-white capitalize'>
+                    peter omoh 2025 | all rights reserved
+                </div>
+
+            </div>
+
             </div>
         </div>
     )

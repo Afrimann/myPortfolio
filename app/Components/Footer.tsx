@@ -37,16 +37,6 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className='justify-between items-center grid grid-cols-1 md:grid-cols-2 mx-auto mt-[2rem] w-[80%]'>
-                <div className='opacity-20 mb-[2rem] md:mb-0 text-[18px] text-white capitalize'>
-                    peter omoh 2025 | all rights reserved
-                </div>
-                <div className='flex items-center space-x-10'>
-                    <p className='opacity-20 text-[18px] text-white'>Terms & Conditions</p>
-                    <p className='opacity-20 text-[18px] text-white'>Privacy Policy</p>
-                    <p className='opacity-20 text-[18px] text-white'>Sitemap</p>
-                </div>
-            </div>
         </div>
     )
 }

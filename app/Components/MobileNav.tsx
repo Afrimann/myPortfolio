@@ -16,7 +16,7 @@ const MobileNav = ({nav,closeNav}:Props) => {
         <a href='#about' onClick={closeNav} className='nav-link-mobile'>ABOUT</a>
         <a href='#project' onClick={closeNav} className='nav-link-mobile'>PROJECT</a>
         <a href='#blog' onClick={closeNav} className='nav-link-mobile'>BLOG</a>
-        <a href='#contact' onClick={closeNav} className='nav-link-mobile'>CONTACT</a>
+        <a href='#footer' onClick={closeNav} className='nav-link-mobile'>CONTACT</a>
       </div>
       <div onClick={closeNav} className='top-[2rem] right-[2rem] z-[100000000] absolute w-[2rem] h-[2rem] text-yellow-400 cursor-pointer'>
         <XMarkIcon/>

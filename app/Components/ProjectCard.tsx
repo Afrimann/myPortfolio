@@ -1,6 +1,7 @@
+'use client'
 export type Project = {
   id: number
-  image: StaticImageData
+  image: string
   title: string
   desc: string
   url: string
@@ -9,32 +10,27 @@ export type Project = {
 
 interface Props {
   project: Project
-  onSeeMore: (project: Project) => void
 }
 
-// this component is the structure of each project object mapped from the Array ProjectDetails in the Project component
-import Image, { StaticImageData } from 'next/image'
+import Image from 'next/image'
 
-export default function ProjectCard ({ project, onSeeMore }: Props) {
+export default function ProjectCard ({ project }: Props) {
   return (
-    <div data-aos = 'fade-up' data-aos-delay = '300' className='border-[#121212] bg-black m-0 p-0 border rounded-lg w-[300px] h-[250px] text-white card'>
-      <div className='relative card-body'>
+    <div
+      data-aos='fade-up'
+      data-aos-delay='300'
+      className='bg-black m-0 p-0 border border-[#121212] rounded-lg w-[300px] h-[250px] overflow-hidden text-white card'
+    >
+      <div className='relative w-full h-full'>
         <Image
           src={project.image}
           alt={project.title}
           width={300}
-          height={200}
-          className='rounded-lg object-contain'
+          height={250}
+          className='rounded-lg w-full h-full object-cover'
         />
-        <div className='flex flex-col items-center mid-content'>
-          <h5 className='px-6 text-yellow-400 card-title'>{project.title}</h5>
-          <p className='px-6'>Web Design</p>
-        </div>
-        <button
-          onClick={() => onSeeMore(project)}
-          className='top-0 right-0 absolute bg-black p-2 rounded-lg text-white btn btn-primary'
-        >
-          Visit Site
+        <button className='top-2 right-2 absolute bg-black p-2 rounded-lg text-white btn btn-primary'>
+          <a href={project.url} target='_blank'>Visit Site</a>
         </button>
       </div>
     </div>

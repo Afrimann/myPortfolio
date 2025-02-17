@@ -3,15 +3,15 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div className='bg-[#02050a] pt-[8rem] pb-[4rem]'>
-            <div className='gap-[3rem] border-gray-400 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto pb-[6rem] border-b-[1px] w-[80%]'>
+        <div id='footer' className='bg-[#02050a] pt-[8rem] pb-[4rem]'>
+            <div className='gap-[3rem] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-auto pb-[6rem] border-gray-400 border-b-[1px] w-[80%]'>
                 <div className='flex items-center space-x-6'>
                     <div className='flex justify-center items-center bg-[#55e6a5] rounded-full w-[5rem] md:w-[6.5rem] h-[5rem] md:h-[6.5rem]'>
                         <MapIcon className='w-[3.5rem] md:w-[4rem] h-[3.5rem] md:h-[4rem] text-black' />
                     </div>
                     <div className='mb-[0.2rem] font-semibold text-[25px] text-white'>
                         <h1>Address</h1>
-                        <p className='opacity-60 w-[90%] text-[17px] text-white'>Check back later</p>
+                        <p className='opacity-60 w-[90%] text-[17px] text-white'>No 26, Orisunbare, Molete, Ibadan.</p>
                     </div>
                 </div>
                 <div className='flex items-center space-x-6'>

@@ -6,20 +6,20 @@ interface Props{
 }
 const Nav = ({openNav}:Props) => {
   return (
-    <div className='w-[100%] fixed z-[10000] top-0 h-[12vh] bg-[#141c27] shadow-md'>
-      <div className='flex items-center justify-between w-[80%] mx-auto h-[100%]'>
-        <h1 className='flex-[0.6] cursor-pointer text-[25px] text-white font-bold '>
-          WEB
-          <span className='text-yellow-300'>DEV</span>
+    <div className='top-0 z-[10000] fixed bg-[#141c27] shadow-md w-[100%] h-[12vh]'>
+      <div className='flex justify-between items-center mx-auto w-[80%] h-[100%]'>
+        <h1 className='flex-[0.6] font-bold text-[25px] text-white cursor-pointer'>
+          Peter
+          <span className='text-yellow-300'>Omohh</span>
         </h1>
-        <div className='nav-link'>Home</div>
-        <div className='nav-link'>Services</div>
-        <div className='nav-link'>About</div>
-        <div className='nav-link'>Project</div>
-        <div className='nav-link'>Blog</div>
-        <div className='nav-link'>Contact</div>
+        <a href='#home' className='nav-link'>Home</a>
+        <a href='#services' className='nav-link'>Services</a>
+        <a href='#about' className='nav-link'>About</a>
+        <a href='#project' className='nav-link'>Project</a>
+        <a href='#blog' className='nav-link'>Blog</a>
+        <a href='#contact' className='nav-link'>Contact</a>
         <div onClick={openNav}>
-          <Bars3Icon className='w-[2rem] md:hidden h-[2rem] cursor-pointer text-yellow-300'/>
+          <Bars3Icon className='md:hidden w-[2rem] h-[2rem] text-yellow-300 cursor-pointer'/>
         </div>
       </div>
     </div>

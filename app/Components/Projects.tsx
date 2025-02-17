@@ -7,7 +7,8 @@ import ProjectModal from './ProjectModal'
 const Projects = () => {
   const [selectedProject, setSelectedProject] = useState<Project | null>(null)
   const [isModalOpen, setIsModalOpen] = useState(false)
-  const handleSeeMore = (project: Project) => {
+  const handleSeeMore = (project: Project, url: string) => {
+
     // set this ste to null because i have not finished designing the modal screen, it will be changed to true soon.
     setSelectedProject(null)
     console.log(project); 
@@ -32,7 +33,7 @@ const Projects = () => {
   }, [isModalOpen])
 
   return (
-    <div className='flex flex-col justify-center items-center bg-[#09101a] mx-auto p-4 w-full min-h-[100vh] b'>
+    <div id='project' className='flex flex-col justify-center items-center bg-[#09101a] mx-auto p-4 w-full min-h-[100vh] b'>
       <h1 className='mb-4 heading'>
         My <span className='text-yellow-400'>PROJECTS</span>
       </h1>
@@ -42,7 +43,6 @@ const Projects = () => {
             <ProjectCard
               key={index}
               project={project}
-              onSeeMore={handleSeeMore}
             />
           </div>
         ))}

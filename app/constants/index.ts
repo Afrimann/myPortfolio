@@ -1,52 +1,51 @@
-import p1 from '../public/images/p1.jpg'
 
 export const ProjectDetails = [
   {
     id: 1,
     title: 'Trippy',
-    image: p1,
+    image: '/project1.png',
     desc: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
-    url: 'https://www.google.com',
+    url: 'https://trippy-phi.vercel.app/',
     creator: 'Creator 1'
   },
   {
     id: 2,
     title: 'Dashboard',
-    image: p1,
+    image: '/dash.png',
     desc: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
-    url: 'https://www.google.com',
+    url: 'https://dashboard-seven-henna.vercel.app/',
     creator: 'Creator 2'
   },
   {
     id: 3,
     title: 'Portfolio',
-    image: p1,
+    image: '/cal.png',
     desc: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
-    url: 'https://www.google.com',
+    url: 'https://call-portfolio.vercel.app/',
     creator: 'Creator 3'
   },
   {
     id: 4,
     title: 'CarHub',
-    image: p1,
+    image: '/p5.jpg',
     desc: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
-    url: 'https://www.google.com',
+    url: 'https://github.com/Afrimann/carhub',
     creator: 'Creator 4'
   },
   {
     id: 5,
     title: 'Link Management App',
-    image: p1,
+    image: '/p4.jpg',
     desc: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
-    url: 'https://www.google.com',
+    url: 'https://github.com/Afrimann/devLinks',
     creator: 'Creator 5'
   },
   {
     id: 6,
     title: 'Liveblocks',
-    image: p1,
+    image: '/live.png',
     desc: 'lorem ipsum lorem ipsum lorem ipsum lorem ipsum  lorem ipsum lorem ipsum lorem ipsum lorem ipsum',
-    url: 'https://www.google.com',
+    url: 'https://cl-liveblocks.vercel.app/',
     creator: 'Creator 6'
   }
 ]
